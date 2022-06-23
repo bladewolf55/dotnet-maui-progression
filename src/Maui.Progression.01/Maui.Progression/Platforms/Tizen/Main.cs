@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace Maui.Progression._01;
+namespace Maui.Progression;
 
 class Program : MauiApplication
 {

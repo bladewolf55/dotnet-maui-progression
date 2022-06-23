@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Maui.Progression._01;
+namespace Maui.Progression;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Maui.Progression._01;
+namespace Maui.Progression;
 
 [Application]
 public class MainApplication : MauiApplication

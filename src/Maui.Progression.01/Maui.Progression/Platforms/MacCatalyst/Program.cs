@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Maui.Progression._01;
+namespace Maui.Progression;
 
 public class Program
 {

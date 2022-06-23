@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="Maui.Progression._01.WinUI.App"
+    x:Class="Maui.Progression.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:Maui.Progression._01.WinUI">
+    xmlns:local="using:Maui.Progression.WinUI">
 
 </maui:MauiWinUIApplication>

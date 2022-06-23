@@ -1,4 +1,4 @@
-﻿namespace Maui.Progression._01;
+﻿namespace Maui.Progression;
 
 public partial class AppShell : Shell
 {

@@ -11,6 +11,8 @@ Level: Moderate
 
 This series assumes the developer is familiar with .NET MAUI, the Model-View-ViewModel pattern, and has worked through one or more tutorials such as the excellent [James Montemagno's Workshop](https://www.youtube.com/watch?app=desktop&v=DuNLR_NJv8U).
 
+Source: [https://github.com/bladewolf55/net-maui-progression](https://github.com/bladewolf55/net-maui-progression)
+
 *   [Part 1 - Adding the View Model](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model/)
 *   [Part 2 - (The Problem With) Basic Unit Testing](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)
 
@@ -93,3 +95,6 @@ As a final check, rerun the app.
 We've separated out our View Model into a testable library, and written a simple passing test. We haven't written any kind of UI test, but that's OK for now. In a future part, I hope to try out the [Visual Studio App Center](https://appcenter.ms/), which appears purpose-built for multi-platform UI testing.
 
 Next up: adding a Model!
+
+## Resources
+*   [Unit Testing Is Part Of A Developer's Job Description | Software Meadows](https://www.softwaremeadows.com/posts/unit_testing_is_part_of_a_developers_job_description/)

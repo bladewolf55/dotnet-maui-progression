@@ -10,7 +10,7 @@ Level: Moderate
 
 This series assumes the developer is familiar with .NET MAUI, the Model-View-ViewModel pattern, and has worked through one or more tutorials such as the excellent [James Montemagno's Workshop](https://www.youtube.com/watch?app=desktop&v=DuNLR_NJv8U).
 
-Source: []
+Source: [https://github.com/bladewolf55/net-maui-progression](https://github.com/bladewolf55/net-maui-progression)
 
 *   [Part 1 - Adding the View Model](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model/)
 *   [Part 2 - (The Problem With) Basic Unit Testing](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)
@@ -244,3 +244,5 @@ We've actually done quite a bit here to implement the MVVM pattern.
 
 Next up: [unit testing](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)!
 
+## Resources
+*   [Domain-Driven Design - An Opinionated Layers Graphic | Software Meadows](https://www.softwaremeadows.com/posts/domain-driven_design_-_opinionated_layers_graphic/)

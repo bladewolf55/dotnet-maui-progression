@@ -1,7 +1,7 @@
 ---  
 Title          : .NET MAUI Progressing From a Default Project Part 1 - Adding the View Model   
-PublishedOn    : 2022-06-20 07:51:00  
-Slug           : _net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model
+PublishedOn    : 2022-06-28 13:00:00  
+Slug           : net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model
 Tags           :  
 ---
 
@@ -12,8 +12,8 @@ This series assumes the developer is familiar with .NET MAUI, the Model-View-Vie
 
 Source: [https://github.com/bladewolf55/net-maui-progression](https://github.com/bladewolf55/net-maui-progression)
 
-*   [Part 1 - Adding the View Model](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model/)
-*   [Part 2 - (The Problem With) Basic Unit Testing](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)
+*   [Part 1 - Adding the View Model](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_1_-_adding_the_view_model/)
+*   [Part 2 - (The Problem With) Basic Unit Testing](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)
 
 ## The Problem .NET MAUI Solves
 Cross-platform development is hard, usually requiring maintaining a project per platform. Any feature must be added to each code base. .NET MAUI uses a single project with the majority of the UI code using XAML, and the business code in C#. This code is then transpiled to the native platforms. The result is less maintenance, fewer errors, and reduced knowledge needed to build cross-platform applications.
@@ -245,7 +245,7 @@ We've actually done quite a bit here to implement the MVVM pattern.
 1.  Updated the View to use the View Model
 1.  Bound the two together
 
-Next up: [unit testing](https://www.softwaremeadows.com/posts/_net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)!
+Next up: [unit testing](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)!
 
 ## Resources
 *   [Domain-Driven Design - An Opinionated Layers Graphic | Software Meadows](https://www.softwaremeadows.com/posts/domain-driven_design_-_opinionated_layers_graphic/)

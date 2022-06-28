@@ -217,6 +217,9 @@ In some cases, I've cleaned up the VS generated documents. (But I don't know if 
 
 AND, if you're told you can't delete files because they're locked!!
 
+> **Important**  
+> This is probably the most useful troubleshooting step I've found. When you close Visual Studio, it does *not* close `adb.exe`, which is used by the Android emulator. I'm betting this will be corrected in the future.
+
 1.  Close Visual Studio
 1.  Close any open Android Emulator and the Android Device Manager
 1. Open Task Manager (Ctrl+Shift+Esc)

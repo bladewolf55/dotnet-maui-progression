@@ -3,7 +3,6 @@ Title          : .NET MAUI Progressing From a Default Project Part 2 - (The Prob
 PublishedOn    : 2022-06-20 07:51:00  
 Slug           : _net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing  
 Tags           :  
-Status         : Draft  
 ---
 
 ## The Series

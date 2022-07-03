@@ -519,6 +519,6 @@ Steve Smith is an excellent developer. So is Julie Lerman. They're so good that 
 
 [Domain-Driven Design Fundamentals | Pluralsight](https://www.pluralsight.com/courses/fundamentals-domain-driven-design)
 
-And I'll be this YouTube presentation is a great intro.
+And I'll bet this YouTube presentation is a great intro.
 
 [Clean Architecture with ASP.NET Core with Steve Smith | Hampton Roads .NET Users Group - YouTube](https://www.youtube.com/watch?v=tdiOqW4ZYu4)

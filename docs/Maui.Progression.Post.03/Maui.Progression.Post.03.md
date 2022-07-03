@@ -58,9 +58,9 @@ Solution
 
 
 ## The Domain Models
-1.  Add a two new .NET Class Library projects, one named `Maui.Progression.Domain`, the other named `Maui.Progression.DomainServices`.  
+1.  Add two new .NET Class Library projects, one named `Maui.Progression.Domain`, the other named `Maui.Progression.DomainServices`.  
     > These are plain class libraries, not specific to .NET MAUI.
-1.  Add two folders, `Models` and `Interfaces`
+1.  Add a `Models` folder.
 1.  Delete `Class1.cs`, add `NumberMapItem.cs` to Models with this code.  
     ```csharp
     namespace Maui.Progression.Domain.Models;
@@ -138,7 +138,7 @@ public class NumberMap_Should
 
 It's contrived, I know, but we have two tests, one to make sure we return words for numbers, the other for what happens if a number doesn't have a word.
 
-Now add the class `NumberMap.cs` to the Domain with this code to pass the tests.
+Now add the class `NumberMap.cs` to the Models folder with this code to pass the tests.
 
 ```csharp
 using System;
@@ -207,7 +207,7 @@ public class NumberMapperService_Should
 
 The above code declares the service and injects our own test data instead of letting it get data from an external source.
 
-Add an interface to DomainServices named `INumberMapper.cs` with this code.
+Add an `Interfaces` folder and an interface to DomainServices named `INumberMapper.cs` with this code.
 
 ```csharp
 using Maui.Progression.Domain.Models;
@@ -222,7 +222,7 @@ public interface INumberMapper
 
 We'll use this interface later to test our ViewModel.
 
-> The principles here are A) to program to the interface, and B) dependency injection. By injecting an interface, we can mock the behavior later.
+> The principles here are A) program to the interface, and B) dependency injection. By injecting an interface, we can mock the behavior later.
 
 Add a class named `NumberMapper.cs` to DomainServices.
 

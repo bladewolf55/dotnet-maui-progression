@@ -77,4 +77,4 @@ I know, I know. "Jeez, that was easy, what was the point?"
 
 The point is that we now have a well-organized application, which increases maintainability. We're following a View-Model-ViewModel pattern, and our Views, View Models, and Models are corralled into their metaphorical pens. We also saw just how pervasive and important the namespaces are, and that--unlike some other refactoring--Visual Studio doesn't (today) catch everything.
 
-Next Up: Build and (hopefully some kind of) Deployment (and then view layouts and styles)!
+Next Up: Styles!

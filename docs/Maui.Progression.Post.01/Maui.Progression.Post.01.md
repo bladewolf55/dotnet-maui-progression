@@ -16,6 +16,7 @@ Source: [https://github.com/bladewolf55/net-maui-progression](https://github.com
 *   [Part 2 - (The Problem With) Basic Unit Testing](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_2_-__the_problem_with__basic_unit_testing)
 *   [Part 3 - Adding the Model](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_3_-_adding_the_model_more_testing_and_ddd/)
 *   [Part 4 - Putting the View in Its Place](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_4_-_putting_the_view_in_its_place/)
+*   [Part 5 - Restyling From Scratch](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_5_-_restyling_from_scratch/)
 
 ## The Problem .NET MAUI Solves
 Cross-platform development is hard, usually requiring maintaining a project per platform. Any feature must be added to each code base. .NET MAUI uses a single project with the majority of the UI code using XAML, and the business code in C#. This code is then transpiled to the native platforms. The result is less maintenance, fewer errors, and reduced knowledge needed to build cross-platform applications.

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Progression.Views.MainPage"
+             xmlns:viewmodels="clr-namespace:Maui.Progression.ViewModels;assembly=Maui.Progression.ViewModels"
+             x:DataType="viewmodels:Counter"
+             
+             >
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!" 
+                Style="{StaticResource pageImage}"/>
+            <Label 
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1" 
+                StyleClass="header"
+                />
+            <Label 
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" 
+                StyleClass="greeting"
+                />
+            <Button
+                Text="{Binding CountText}"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Command="{Binding IncreaseCounterCommand}"
+                Style="{StaticResource baseButton}" 
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

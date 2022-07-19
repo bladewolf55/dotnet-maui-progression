@@ -1,6 +1,6 @@
 ---  
 Title          : .NET MAUI Progressing From a Default Project Part 5 - Restyling From Scratch   
-PublishedOn    : 2022-07-04 19:00:47 
+PublishedOn    : 2022-07-11 19:11:18 
 Slug           : net_maui_progressing_from_a_default_project_part_5_-_restyling_from_scratch
 Tags           :  
 ---

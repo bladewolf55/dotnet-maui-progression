@@ -17,6 +17,7 @@ Source: [https://github.com/bladewolf55/net-maui-progression](https://github.com
 *   [Part 3 - Adding the Model](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_3_-_adding_the_model_more_testing_and_ddd/)
 *   [Part 4 - Putting the View in Its Place](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_4_-_putting_the_view_in_its_place/)
 *   [Part 5 - Restyling From Scratch](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_5_-_restyling_from_scratch/)
+*   [Part 6 - Revisiting Unit Testing](https://www.softwaremeadows.com/posts/net_maui_progressing_from_a_default_project_part_6_-_revisiting_unit_testing/)
 
 ## What Problem Do Styles Solve?
 Fundamentally, styles let you declare in one place how something will look no matter where it appears. A style differs (in my mind) from a format. 

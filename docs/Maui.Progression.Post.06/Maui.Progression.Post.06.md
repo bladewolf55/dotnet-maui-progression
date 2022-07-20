@@ -26,7 +26,10 @@ In part 2, I discussed how .NET MAUI didn't support unit testing, and that you c
 
 In his video [Unit Testing .NET MAUI Apps with xUnit](https://www.youtube.com/watch?app=desktop&v=C9vIDLQwc7M), Gerald Versluis demonstrates how to modify the project to allow direct unit testing. It's pretty simple, I must say, and for fun I'll take the solution from part 5 and *collapse* it back into a single project. 
 
+> If you want to just see the answer, scroll down to *The Secret Sauce*.
+
 > Ideally, as long as I keep the namespaces the same, everything should work the same and pass perfectly with very little effort.
+
 
 ## Creating the namespace folder structure
 Right now, we have separate projects for our domain-driven design.
@@ -76,7 +79,7 @@ Modify the `TargetFrameworks` line to include `net6.0`. I put it first.
 <TargetFrameworks>net6.0;net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
 ```
 
-Here's the kicker. Modify the OutputType to *conditionally* generate an Exe for everything except the `net6.0` framework. DLL is the default when EXE isn't selected.
+Here's the kicker. Modify the OutputType to *conditionally* generate an Exe for everything except the `net6.0` framework. DLL is the default when Exe isn't selected.
 
 ```xml
 <OutputType Condition="'$(TargetFramework)' != 'net6.0'">Exe</OutputType>
@@ -99,9 +102,9 @@ Run the tests and they pass, like magic.
 ![](2022-07-19-13-51-35.png)
 
 ## Pros/Cons
-The advantage to keeping all the code in one project is it's a little quicker to navigate. 
+One advantage to keeping all the code in one project is it's a little quicker to navigate. 
 
-One disadvantage is separate projects can force better testing design.
+One disadvantage is there's a tendency toward tighter coupling and worse testing design.
 
 But another, subtler disadvantage is build time. If there are no changes to the UI, and only changes to the dependency projects, the build is substantially faster. This matters when doing test-driven development because we want to keep our feedback loop fast.
 
